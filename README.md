@@ -1,25 +1,38 @@
-Java Calculator Using Switch Case
-Description
+# Java Calculator Using Switch Case
 
-This is a simple Java Calculator program that performs basic arithmetic operations using the switch statement. The user enters two numbers and selects an operator (+, -, *, /), and the program displays the result.
+## Project Description
 
-Features
-Addition (+)
-Subtraction (-)
-Multiplication (*)
-Division (/)
-Invalid operator handling
-Technologies Used
-Java
-Scanner Class
-Switch Case
-How It Works
-The program asks the user to enter the first number.
-The program asks the user to enter the second number.
-The user enters an operator (+, -, *, /).
-The program performs the selected operation using a switch statement.
-The result is displayed on the screen.
-Sample Output
+This is a simple Calculator application developed in Java. The program accepts two numbers and an arithmetic operator from the user and performs the selected operation using a `switch` statement.
+
+## Features
+
+* Addition (`+`)
+* Subtraction (`-`)
+* Multiplication (`*`)
+* Division (`/`)
+* Invalid operator handling
+
+## Technologies Used
+
+* Java
+* Scanner Class
+* Switch Case
+
+## How It Works
+
+1. The user enters the first number.
+2. The user enters the second number.
+3. The user selects an operator (`+`, `-`, `*`, `/`).
+4. The program performs the selected operation.
+5. The result is displayed on the screen.
+
+## Source Code File
+
+`practice4.java`
+
+## Sample Output
+
+### Addition
 
 Enter the number :
 10
@@ -32,18 +45,53 @@ Enter the operator that you want to perform (+, -, *, /):
 
 the number is 15
 
-Code Concepts Used
-Variables
-User Input using Scanner
-Switch Statement
-Arithmetic Operators
-Conditional Execution
-Future Improvements
-Add modulus (%) operation.
-Handle division by zero.
-Support decimal numbers using double data type.
-Create a menu-driven calculator.
+### Multiplication
 
+Enter the number :
+8
 
-Author
-Amir Khushroo
+Enter the another number :
+4
+
+Enter the operator that you want to perform (+, -, *, /):
+*
+
+the number is 32
+
+## How to Run
+
+### Step 1: Compile the Program
+
+```bash
+javac practice4.java
+```
+
+### Step 2: Run the Program
+
+```bash
+java practice4
+```
+
+## Concepts Used
+
+* Variables
+* User Input using Scanner
+* Switch Statement
+* Arithmetic Operators
+* Java Programming Basics
+
+## Future Improvements
+
+* Support decimal numbers using `double`.
+* Add modulus (`%`) operation.
+* Handle division by zero.
+* Create a menu-driven calculator.
+* Allow multiple calculations without restarting the program.
+
+## Author
+
+Amir  Khushroo
+
+## License
+
+This project is created for learning and educational purposes.
